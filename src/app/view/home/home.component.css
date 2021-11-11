@@ -1,0 +1,33 @@
+#banner, #novidade {
+    background-color: #3CD1DB;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    margin: 10px;
+  }
+  #banner img, #novidade img {
+    width: 100%;
+    height: 100%;
+  }
+  #banner div, #novidade div {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    #banner, #novidade {
+      padding: 20px;
+      column-gap: 50px;
+    }
+    #banner img, #novidade img {
+      width: 30vw;
+      height: 100%;
+    }
+    #banner div, #novidade div {
+      margin-top: 20px;
+      width: 50vw;
+    }    
+  }
